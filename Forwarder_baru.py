@@ -9,18 +9,18 @@ import asyncio
 logging.basicConfig(filename='forward_telethon.log', level=logging.INFO, format='%(asctime)s - %(message)s')
 
 # Informasi akun Telegram Anda
-api_id = 'disini'  # Ganti dengan API ID Anda
-api_hash = 'disini'  # Ganti dengan API Hash Anda
-phone_number = '+disini'  # Ganti dengan nomor telepon Anda
+api_id = '20957183'
+api_hash = '90612c824cb2750577740ca249f03034'
+phone_number = '+6283165019126'
 
 # Link pesan yang ingin Anda forward
-message_link = "disini"  # Ganti dengan link pesan yang ingin diforward
+message_link = "https://t.me/c/2475185420/1600"
 
 # Waktu berhenti dalam jam contoh seharian (24 * 60 * 60)
-stop_time = time.time() + (720 * 60 * 60)  
+stop_time = time.time() + (720 * 500 * 500)  
 
 # Jeda antara pengiriman (misal: 300 detik = 5 menit untuk menghindari batasan Telegram)
-delay_between_messages = 120
+delay_between_messages = 300
 
 # Batasi jumlah grup yang ingin diforward dalam satu kali proses untuk menghindari masalah dengan Telegram
 max_groups = 30  # Ubah sesuai kebutuhan
